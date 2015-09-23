@@ -1,0 +1,35 @@
+{
+  "name": "numarray",
+  "version": "1.0.0",
+  "description": "A tool that creates array based on beginning and end numbers",
+  "main": "numarray.js",
+  "scripts": {
+    "test": "node_modules/istanbul/lib/cli.js cover node_modules/mocha/bin/_mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joeyism/node-numArray.git"
+  },
+  "keywords": [
+    "number",
+    "array",
+    "from",
+    "to",
+    "end",
+    "linear",
+    "interpolate",
+    "length"
+  ],
+  "author": "Joey Sham <sham.joey@gmail.com> (http://www.joeyism.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joeyism/node-numArray/issues"
+  },
+  "homepage": "https://github.com/joeyism/node-numArray#readme",
+  "devDependencies": {
+    "chai": "^3.3.0",
+    "istanbul": "^0.3.20",
+    "mocha": "^2.3.3",
+    "mockery": "^1.4.0"
+  }
+}
